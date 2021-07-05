@@ -18,6 +18,10 @@ public class Main {
         //String stringTrends = trends.toString();
         //System.out.println(stringTrends);
         Trend[] trendS = trends.getTrends();
-        
-    }
-}
+
+        //String[] trendSArray = new String[50];
+        for (int i = 0; i < trendS.length; i++) {
+            if (trendS[i].toString() == "Getir" || trendS[i].toString() == "getir" ||    trendS[i].toString() == "#getir"){
+                System.out.printf("Getir is a trending topic");
+            }
+        }
