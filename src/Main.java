@@ -15,6 +15,9 @@ public class Main {
         Twitter twitter = tf.getInstance();
 
         Trends trends = twitter.getPlaceTrends(00000000);//23424969
+        //String stringTrends = trends.toString();
+        //System.out.println(stringTrends);
+        Trend[] trendS = trends.getTrends();
         
     }
 }
