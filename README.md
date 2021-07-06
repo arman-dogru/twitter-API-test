@@ -1,4 +1,4 @@
-# twitter-bot
+# twitter-API-test
 
 Bot test for twitter
 
